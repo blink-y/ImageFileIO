@@ -1,0 +1,68 @@
+*** Demonstrate use of getter methods ***
+img1 of size 4x2:
+127	255	255	127
+255	0	0	255
+
+Wrote Gray_4by2.pgm with header P2 of image size 4x2
+Screen show of image size 4x2:
+ 127 255 255 127
+
+ 255   0   0 255
+
+*** Demonstrate use of stackWith() ***
+img2 of size 4x6:
+0	70	180	0
+255	190	80	255
+127	255	255	127
+255	0	0	255
+127	255	255	127
+255	0	0	255
+
+Wrote Gray_4by6.pgm with header P2 of image size 4x6
+Screen show of image size 4x6:
+   0  70 180   0
+
+ 255 190  80 255
+
+ 127 255 255 127
+
+ 255   0   0 255
+
+ 127 255 255 127
+
+ 255   0   0 255
+
+*** Demonstrate use of read() and write() ***
+    Generate Excel Tab-delimited Text file
+    Show that some PGM formatted files are compatible to .tab
+Read digit0.pgm with header P2 of image size 6x8
+Wrote digit0.tab with header P2 of image size 6x8
+Screen show of image size 6x8:
+ 255 255 255 255 255 255
+
+ 255 230   0   0 230 255
+
+ 255   0 255 255 127 255
+
+ 255   0 255 127   0 255
+
+ 255   0 127 255   0 255
+
+ 255 127 255 255   0 255
+
+ 255 230   0   0 230 255
+
+ 255 255 255 255 255 255
+
+*** Demonstrate use of invert() ***
+Read DongDong.pgm with header P2 of image size 512x512
+Wrote DongDong_inv.pgm with header P2 of image size 512x512
+
+*** Send message to student's prepareSID() ***
+Read digit1.pgm with header P2 of image size 6x8
+Read digit1.pgm with header P2 of image size 6x8
+Read digit5.pgm with header P2 of image size 6x8
+Read digit5.pgm with header P2 of image size 6x8
+Read digit9.pgm with header P2 of image size 6x8
+Read digit9.pgm with header P2 of image size 6x8
+Wrote sid.pgm with header P2 of image size 6x48
